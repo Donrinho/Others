@@ -32,16 +32,7 @@ shell> mysql -u root -p **** --prompt 提示符
 mysql> prompt 提示符
 ```
  **提示符中可用的转义符** 
-|参数|意义|
-|:--:|:--:|
-|`-D` 或 `--database=name`|打开指定数据库|
-|`--delimiter=name`|指定分隔符，默认为;|
-|`-h` 或 `--host=name`|服务器名称|
-|`-p` 或 `--password(=name)`|密码|
-|`-P` 或 `--port=#`|端口号|
-|`--prompt=name`|设置提示符|
-|`-u` 或 `--user=name`|用户名|
-|`-V` 或 `--version`|输出版本信息并退出|
+
 |转义符|意义|
 |:--:|:--:|
 |`\D`|完整的日期|
