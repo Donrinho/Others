@@ -10,10 +10,7 @@ SQL执行语句的方式交由数据库引擎的一个组件，即优化器（op
 * MySQL的默认端口号：`3306`
 * MySQL的超级用户：`root`
 * MySQL配置文件（Windows）：`安装目录\my.ini`
-* 用root用户登录MySQL：
-```
-mysql -u root -p
-```
+* 用root用户登录MySQL：`mysql -u root -p`
 ### MySQL参数说明
 |参数|意义|
 |:--:|:--:|
