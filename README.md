@@ -39,3 +39,10 @@ mysql> prompt 提示符
 |`\d`|当前数据库|
 |`\h`|服务器名称|
 |`\u`|当前用户|
+
+例如：
+```
+mysql> prompt \u@\h :\d>
+PROMPT set to '\u@\h :\d>'
+root@localhost :(none)>
+```
